@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="button1">Button 1</string>
+    <string name="hw1">Дз 1</string>
+    <string name="hw2">Дз 2</string>
+    <string name="hw3">Дз 3</string>
+    <string name="hw4">Дз 4</string>
+    <string name="hw5">Дз 5</string>
+    <string name="hw6">Дз 6</string>
+    <string name="hw7">Дз 7</string>
+    <string name="hw8">Дз 8</string>
+    <string name="hw9">Дз 9</string>
+
+    <string name="text_view_1">Text 1</string>
+
+    <string name="text_view_2">Text 2</string>
+
+    <string name="edit_text1_hw1_src">http://bezkota.ru/wp-content/uploads/2018/02/znakomtes-xosiko-kotik-iz-shreka-vo-ploti-30-foto-13.jpg</string>
+</resources>

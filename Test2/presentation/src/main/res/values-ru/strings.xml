@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Тест</string>
+    <string name="button1">Кнопка 1</string>
+    <string name="hw1">Дз 1</string>
+    <string name="hw2">Дз 2</string>
+
+    <string name="text_view_1">Текст 1</string>
+
+    <string name="text_view_2">Текст 2</string>
+</resources>

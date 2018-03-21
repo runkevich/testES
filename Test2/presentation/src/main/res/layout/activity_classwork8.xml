@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="java.lang.String" />
+        <variable
+            name="viewModel"
+            type="com.runkevich8.gmail.presentation.screens.user.UserViewModel" />
+
+    </data>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+<TextView
+    android:id="@+id/cw8_username"
+    android:textColor="@{viewModel.gender ? @color/colorAccent : @color/colorPrimary }"
+    android:textSize="24sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@{viewModel.username}"/>
+    <ImageView
+        android:id="@+id/cw8_profileurl"
+        android:textSize="24sp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:imageUrl="@{viewModel.profileurl}"
+
+        />
+    <TextView
+        android:id="@+id/cw8_age"
+        android:textSize="24sp"
+        android:textColor="@{viewModel.gender ? @color/colorAccent : @color/colorPrimary }"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@{String.valueOf(viewModel.age)}"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="@{viewModel.progressVisible? View.VISIBLE : View.GONE}"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/button_cw8"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="@{myEntity.buttonVisibilite? View.VISIBLE : View.GONE }"-->
+        <!--android:text="@{myEntity.textButton}"-->
+        <!--android:background="@drawable/button_selector"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:onClick="@{myEntity::buttonClick}"/>-->
+
+
+</LinearLayout>
+</layout>
