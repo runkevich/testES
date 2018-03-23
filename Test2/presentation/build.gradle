@@ -71,9 +71,12 @@ dependencies {
     implementation project(path: ':data')
     implementation project(path: ':domain')
 
+
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.4'
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
     implementation 'com.github.bumptech.glide:glide:4.6.1'
     compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
     implementation 'com.google.code.gson:gson:2.8.2'
+
+
 }
